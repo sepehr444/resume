@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply max-w-[1140px] xl:w-[960px] l:max-w-[714px] md:w-[540px] sm:w-full sm:mx-[10px] flex mx-auto rounded-xl xs:m-0;
+    }
+
+    img {
+        @apply max-w-none
+    }
+
+
+    .title h4 {
+        @apply font-medium text-[#3c3e41] text-[32px] w-full mb-[10px]
+    }
+
+    .title p {
+        @apply text-[18px] text-[#696f79] font-light w-full
+    }
+
+    .title span {
+        @apply text-[#878e99] text-[14px] font-light mt-[10px]
+    }
+
+    .title h5 {
+        @apply text-[17px] font-light text-[#3c3e41] mb-[20px]
+    }
+
+    .title h6 {
+        @apply  text-[20px] font-medium text-[#3c3e41] mb-[20px]
+    }
+
+    .icon li a ion-icon {
+        @apply w-6 h-6 text-gray_color
+    }
+
+    .icon li {
+        @apply w-[53px] h-[53px];
+    }
+
+    .icon li a {
+        @apply w-full h-full flex justify-center items-center rounded-md shadow-xl
+    }
+
+    .icon li,
+    .icon li a {
+        @apply rounded-md transition-all duration-[300ms] ease-in
+    }
+
+    .icon li a:hover ion-icon,
+    .icon li:hover ion-icon {
+        @apply text-white
+    }
+
+    .icon li:hover {
+        @apply bg-red bg-none mt-[-8px]
+    }
+
+    .nav li a {
+        @apply font-light transition-all duration-300 rounded-lg text-[#3c3e41] text-[18px] h-[90px] py-[15px] px-[20px] w-auto flex justify-center items-center xl:h-[60px] sm:w-full sm:text-[14px] xs:text-[10px] sm:h-[50px] xs:p-[15px] xs:h-[35px];
+    }
+
+    .nav li a:hover {
+        @apply bg-red text-white
+    }
+
+    .skills span ion-icon {
+        @apply w-[18px] h-[18px]
+    }
+
+    .skills span {
+        @apply text-[18px] font-light text-gray-400
+    }
+
+    .myWorkCard {
+    @apply py-[35px]  px-[20px] h-full text-center rounded-[13px] border border-[#00000040];
+    }
+    .myWorkCard ion-icon{
+    @apply mb-[25px] w-[55px] h-[55px] text-[#ff014f] ;
+    }
+    .case .gradient_bg{
+    @apply flex flex-col shadow-slate-300 shadow-xl rounded-[10px]
+    }
+    .case .gradient_bg .inner .img a img{
+    @apply h-auto p-[30px] xxl:w-[180px] w-[220px]  xl:w-[265px] xl:p-[50px]
+    }
+    .case .gradient_bg .inner .img {
+    @apply min-h-[175px] flex items-center  border-b border-[#dce1e4]
+    }
+    .case .gradient_bg .inner .title span a{
+    @apply text-[#7c838e]
+    }
+    .case .gradient_bg .inner .title{
+    @apply p-[16px] w-full text-center
+    }
+    .myWorkCard .inner .title .inner .title{
+    @apply line-clamp-4 xl:line-clamp-6 l:line-clamp-3 sm:line-clamp-5 xs:line-clamp-3
+    }
+
+}

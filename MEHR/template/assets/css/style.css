@@ -1,0 +1,15 @@
+@import url(fonts.css);
+body {
+  direction: rtl;
+  max-width: 1600px;
+  font-family: irsans;
+}
+
+.gradient_bg {
+  background: rgb(236, 236, 236);
+  background: linear-gradient(124deg, rgb(206, 216, 217) 0%, rgb(255, 255, 255) 51%);
+}
+
+.hidden_bg {
+  background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+}/*# sourceMappingURL=style.css.map */

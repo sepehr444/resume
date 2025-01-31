@@ -1,0 +1,41 @@
+/* IRANSans fonts are used in this project under the license: ..... */
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/irsans-b.eot);
+	src: url(../fonts/irsans-b.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-b.woff) format("woff"), url(../fonts/irsans-b.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/irsans-m.eot);
+	src: url(../fonts/irsans-m.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-m.woff) format("woff"), url(../fonts/irsans-m.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/irsans.eot);
+	src: url(../fonts/irsans.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans.woff) format("woff"), url(../fonts/irsans.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/irsans-l.eot);
+	src: url(../fonts/irsans-l.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-l.woff) format("woff"), url(../fonts/irsans-l.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 200;
+	src: url(../fonts/irsans-u.eot);
+	src: url(../fonts/irsans-u.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-u.woff) format("woff"), url(../fonts/irsans-u.ttf) format("truetype")
+}
